@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drawing App"
+        android:textSize="35sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="#D72EFD"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="-5"
+        android:shadowDy="-5"
+        android:shadowRadius="5"/>
+
+
+    <ImageButton
+        android:id="@+id/btn_start"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/start_btn"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-50"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:src="@drawable/rainbow" />
+
+
+
+</LinearLayout>
